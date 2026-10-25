@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf539b6c222054f63a0cb7a5a4741408, type: 3}
+  m_Name: RebindCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::RebindCatalog
+  entries:
+  - section: 0
+    key: jump
+    label: Jump
+    action: {fileID: -3420281069009276692, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: UpDown/positive
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: crouch
+    label: Crouch
+    action: {fileID: -6897331966534268597, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: UpDown/negative
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: sprint
+    label: Sprint
+    action: {fileID: 2610944140782005787, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: speed_up
+    label: Speed up
+    action: {fileID: -1691766316938169901, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: speed_down
+    label: Slow down
+    action: {fileID: -1889586623032194627, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: interact
+    label: Interact
+    action: {fileID: 4743306732048843659, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: dodge
+    label: Dodge
+    action: {fileID: -2725511293770370521, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: attack
+    label: Attack
+    action: {fileID: -2167323346292599436, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: aim
+    label: Aim
+    action: {fileID: 2235536534754074785, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: block
+    label: Block
+    action: {fileID: 2124387011592313396, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: reload
+    label: Reload
+    action: {fileID: 6613110010654506788, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: weapon_draw
+    label: Draw / put away weapon
+    action: {fileID: -5765110788924041522, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: animal_focus
+    label: Focus an animal
+    action: {fileID: 6303390219735816385, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: pets_menu
+    label: Pets menu
+    action: {fileID: -2000085382998579849, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: weapon_ability
+    label: Weapon ability
+    action: {fileID: -2207990849387362850, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: retro_pulse
+    label: Retro Pulse
+    action: {fileID: -8789427653658397468, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: lock_on
+    label: Lock on
+    action: {fileID: 6801263644249020429, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 0
+    key: switch_target
+    label: Switch target
+    action: {fileID: 287735634167404634, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: left
+    linkedCompositePart: 
+    gamepadReadOnly: 1
+    keyboardReadOnly: 1
+  - section: 0
+    key: open_map
+    label: Open map
+    action: {fileID: -2230503590979115737, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 3
+    key: animal_talk
+    label: Talk
+    action: {fileID: 2124199378528042513, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 3
+    key: animal_pet
+    label: Pet
+    action: {fileID: -1890319802789352508, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 4
+    key: qte_left
+    label: Left
+    action: {fileID: 3781976684511732764, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 4
+    key: qte_right
+    label: Right
+    action: {fileID: 7560889734169321321, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 4
+    key: qte_down
+    label: Down
+    action: {fileID: -6439268516847653979, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 1
+    key: journal
+    label: Journal
+    action: {fileID: 8833096257979230719, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 1
+    key: vinyl_collection
+    label: Vinyl collection
+    action: {fileID: 6399890661186124952, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 1
+    key: weapon_wheel
+    label: Weapon wheel
+    action: {fileID: 5788941781362209836, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 1
+    key: skip_dialogue
+    label: Skip dialogue
+    action: {fileID: -3955755458851325088, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 2
+    key: throttle
+    label: Throttle
+    action: {fileID: 7591068972922969388, guid: aac3ce3475f78f34a85aaa4ae31e8459, type: 3}
+    compositePart: positive
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 2
+    key: brake
+    label: Brake
+    action: {fileID: 6910802709047570330, guid: aac3ce3475f78f34a85aaa4ae31e8459, type: 3}
+    compositePart: positive
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 2
+    key: handbrake
+    label: Handbrake
+    action: {fileID: 6820134468020326315, guid: aac3ce3475f78f34a85aaa4ae31e8459, type: 3}
+    compositePart: positive
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 2
+    key: boost
+    label: Boost
+    action: {fileID: -7918325466135955506, guid: aac3ce3475f78f34a85aaa4ae31e8459, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 2
+    key: headlights
+    label: Headlights
+    action: {fileID: -4749936380270960797, guid: aac3ce3475f78f34a85aaa4ae31e8459, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 2
+    key: car_camera
+    label: Camera view
+    action: {fileID: -1141304354073523390, guid: aac3ce3475f78f34a85aaa4ae31e8459, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 2
+    key: steer_left
+    label: Steer left
+    action: {fileID: -6677995707753222879, guid: aac3ce3475f78f34a85aaa4ae31e8459, type: 3}
+    compositePart: Negative
+    linkedCompositePart: 
+    gamepadReadOnly: 1
+    keyboardReadOnly: 0
+  - section: 2
+    key: steer_right
+    label: Steer right
+    action: {fileID: -6677995707753222879, guid: aac3ce3475f78f34a85aaa4ae31e8459, type: 3}
+    compositePart: Positive
+    linkedCompositePart: 
+    gamepadReadOnly: 1
+    keyboardReadOnly: 0
+  - section: 2
+    key: drift_qte_1
+    label: Drift QTE 1
+    action: {fileID: -517074768709301260, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 2
+    key: drift_qte_2
+    label: Drift QTE 2
+    action: {fileID: -7018534642099136657, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
+  - section: 2
+    key: drift_qte_3
+    label: Drift QTE 3
+    action: {fileID: 8852730680509283883, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    compositePart: 
+    linkedCompositePart: 
+    gamepadReadOnly: 0
+    keyboardReadOnly: 0
